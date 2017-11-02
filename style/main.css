@@ -100,3 +100,7 @@ header{
 	color: #FFF;
 	text-align: center;
 }
+
+p.cont{
+	padding: 0.2rem;
+}
