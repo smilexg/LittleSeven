@@ -1,0 +1,102 @@
+@charset "UTF-8";
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html{
+	font-size: 100px;
+}
+
+body{
+	background-color: #eee;
+	color: #666;
+	font-size: 0.15rem;
+	-webkit-touch-callout:none;/*禁用系统默认菜单*/
+	-webkit-text-size-adjust: 100%;
+	font-family: "Helvetica Neue", Helvetica, STHeiTi, sans-serif;
+}
+
+img {
+	-webkit-touch-callout: none; 
+}
+
+a,input{
+	text-decoration: none;
+	outline: none;
+	border: none;
+	touch-action: manipulation;
+    cursor: pointer;
+}
+
+a:focus,
+input:focus{
+	outline:none;
+}
+
+button{
+	outline: none;
+	border: none;
+	margin: 0;
+}
+li{
+	list-style: none;
+}
+
+.body-view{
+	min-width: 3rem;
+	max-width: 6rem;
+	margin: auto;
+}
+
+header{
+	width: 100%;
+	margin-top: 0.2rem;
+	height: 1rem;
+	min-width: 3rem;
+	line-height: 1rem;
+	text-align: center;
+}
+
+.header-title{
+	font-size: 0.5rem;
+}
+
+.content{
+	width: 100%;
+	margin-top: 0.05rem;
+	text-align: left;
+}
+
+.content_1{
+	margin: auto;
+}
+
+.content_2{
+	text-align: left;
+}
+
+.img7{
+	width: 3rem;
+	height: 3rem;
+	margin: auto;
+}
+.black{
+	color: black;
+}
+.to2{
+	text-indent:0.4rem;
+}
+.red{
+	color: #ea6e6e;
+}
+.link7{
+	display: inline-block;
+	height: 0.3rem;
+	width: 0.9rem;
+	background-color: #0f88eb;
+	line-height: 0.3rem;
+	color: #FFF;
+	text-align: center;
+}
